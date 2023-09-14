@@ -1,0 +1,625 @@
+{
+    "DemoBus1": {
+      "id":1,
+      "totalSeats":33,
+
+      "upperDeck":{
+        "totalUpperDeckSeats":15,
+        "totalrowsUpperDeckSeats": 4,
+        "totalcolumnsUpperDeckSeats": 7,
+        "UpperDeckSeats": [
+
+          {
+          "firstRowUpperDeck": [
+          { "colmn": 5, "row": 0,"type": "S","name": "A1","price": 75,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 0,"type": "N","name": "A2","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 0,"type": "S","name": "A3","price": 51,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 0,"type": "N","name": "A4","price": 131,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 0,"type": "N","name": "A5","price": 121,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "secondRowUpperDeck": [
+          { "colmn": 0, "row": 1,"type": "N","name": "A10","price": 141,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 1,"type": "N","name": "A20","price": 181,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 1,"type": "S","name": "A30","price": 21,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 1,"type": "N","name": "A40","price": 195,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 1,"type": "N","name": "A50","price": 139,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "thirdRowUpperDeck": [
+          { "colmn": 0, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "forthRowUpperDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A11","price": 161,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 3,"type": "N","name": "A22","price": 151,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A33","price": 36,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A66","price": 49,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "A77","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        }
+
+            ]
+          },
+
+         
+      "lowerDeck":{
+        "totalLowerDeckSeats":18,
+        "totalrowsLowerDeckSeats": 4,
+        "totalcolumnsLowerDeckSeats": 7,
+   
+        "LowerDeckSeats": [
+
+          {
+          "firstRowLowerDeck": [
+          { "colmn": "5", "row": 0,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 0,"type": "N","name": "A110","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 0,"type": "S","name": "A220","price": 76,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "0", "row": 0,"type": "N","name": "A330","price": 189,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 0,"type": "N","name": "A440","price": 159,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 0,"type": "S","name": "A550","price": 48,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 0,"type": "N","name": "A660","price": 146,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+
+        {
+        "secondRowLowerDeck": [
+          { "colmn": "0", "row": 1,"type": "N","name": "A100","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 1,"type": "N","name": "A200","price": 106,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 1,"type": "S","name": "A300","price": 45,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          ]
+        },
+
+        {
+        "thirdRowLowerDeck": [
+          { "colmn": "0", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+        {
+        "forthRowLowerDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A111","price": 120,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 3, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A222","price": 55,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 2, "row": 3,"type": "N","name": "A333","price": 155,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 1, "row": 3,"type": "N","name": "A444","price": 130,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A555","price": 50,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "Null","price": 140,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        }
+
+            ]
+          }
+
+    },
+
+
+  
+    "DemoBus2": {
+      "id":2,
+      "totalSeats":33,
+
+      "upperDeck":{
+        "totalUpperDeckSeats":15,
+        "totalrowsUpperDeckSeats": 4,
+        "totalcolumnsUpperDeckSeats": 7,
+        "UpperDeckSeats": [
+
+          {
+          "firstRowUpperDeck": [
+          { "colmn": 5, "row": 0,"type": "S","name": "A1","price": 75,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 0,"type": "N","name": "A2","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 0,"type": "S","name": "A3","price": 51,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 0,"type": "N","name": "A4","price": 131,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 0,"type": "N","name": "A5","price": 121,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "secondRowUpperDeck": [
+          { "colmn": 0, "row": 1,"type": "N","name": "A10","price": 141,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 1,"type": "N","name": "A20","price": 181,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 1,"type": "S","name": "A30","price": 21,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 1,"type": "N","name": "A40","price": 195,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 1,"type": "N","name": "A50","price": 139,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "thirdRowUpperDeck": [
+          { "colmn": 0, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "forthRowUpperDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A11","price": 161,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 3,"type": "N","name": "A22","price": 151,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A33","price": 36,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A66","price": 49,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "A77","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        }
+
+            ]
+          },
+
+         
+      "lowerDeck":{
+        "totalLowerDeckSeats":18,
+        "totalrowsLowerDeckSeats": 4,
+        "totalcolumnsLowerDeckSeats": 7,
+   
+        "LowerDeckSeats": [
+
+          {
+          "firstRowLowerDeck": [
+          { "colmn": "5", "row": 0,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 0,"type": "N","name": "A110","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 0,"type": "S","name": "A220","price": 76,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "0", "row": 0,"type": "N","name": "A330","price": 189,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 0,"type": "N","name": "A440","price": 159,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 0,"type": "S","name": "A550","price": 48,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 0,"type": "N","name": "A660","price": 146,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+
+        {
+        "secondRowLowerDeck": [
+          { "colmn": "0", "row": 1,"type": "N","name": "A100","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 1,"type": "N","name": "A200","price": 106,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 1,"type": "S","name": "A300","price": 45,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          ]
+        },
+
+        {
+        "thirdRowLowerDeck": [
+          { "colmn": "0", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+        {
+        "forthRowLowerDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A111","price": 120,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 3, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A222","price": 55,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 2, "row": 3,"type": "N","name": "A333","price": 155,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 1, "row": 3,"type": "N","name": "A444","price": 130,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A555","price": 50,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "Null","price": 140,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        }
+
+            ]
+          }
+
+    },
+
+
+    "DemoBus3": {
+      "id":3,
+      "totalSeats":33,
+
+      "upperDeck":{
+        "totalUpperDeckSeats":15,
+        "totalrowsUpperDeckSeats": 4,
+        "totalcolumnsUpperDeckSeats": 7,
+        "UpperDeckSeats": [
+
+          {
+          "firstRowUpperDeck": [
+          { "colmn": 5, "row": 0,"type": "S","name": "A1","price": 75,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 0,"type": "N","name": "A2","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 0,"type": "S","name": "A3","price": 51,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 0,"type": "N","name": "A4","price": 131,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 0,"type": "N","name": "A5","price": 121,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "secondRowUpperDeck": [
+          { "colmn": 0, "row": 1,"type": "N","name": "A10","price": 141,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 1,"type": "N","name": "A20","price": 181,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 1,"type": "S","name": "A30","price": 21,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 1,"type": "N","name": "A40","price": 195,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 1,"type": "N","name": "A50","price": 139,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "thirdRowUpperDeck": [
+          { "colmn": 0, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "forthRowUpperDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A11","price": 161,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 3,"type": "N","name": "A22","price": 151,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A33","price": 36,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A66","price": 49,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "A77","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        }
+
+            ]
+          },
+
+         
+      "lowerDeck":{
+        "totalLowerDeckSeats":18,
+        "totalrowsLowerDeckSeats": 4,
+        "totalcolumnsLowerDeckSeats": 7,
+   
+        "LowerDeckSeats": [
+
+          {
+          "firstRowLowerDeck": [
+          { "colmn": "5", "row": 0,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 0,"type": "N","name": "A110","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 0,"type": "S","name": "A220","price": 76,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "0", "row": 0,"type": "N","name": "A330","price": 189,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 0,"type": "N","name": "A440","price": 159,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 0,"type": "S","name": "A550","price": 48,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 0,"type": "N","name": "A660","price": 146,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+
+        {
+        "secondRowLowerDeck": [
+          { "colmn": "0", "row": 1,"type": "N","name": "A100","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 1,"type": "N","name": "A200","price": 106,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 1,"type": "S","name": "A300","price": 45,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          ]
+        },
+
+        {
+        "thirdRowLowerDeck": [
+          { "colmn": "0", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+        {
+        "forthRowLowerDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A111","price": 120,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 3, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A222","price": 55,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 2, "row": 3,"type": "N","name": "A333","price": 155,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 1, "row": 3,"type": "N","name": "A444","price": 130,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A555","price": 50,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "Null","price": 140,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        }
+
+            ]
+          }
+
+    },
+
+
+    "DemoBus4": {
+      "id":4,
+      "totalSeats":33,
+
+      "upperDeck":{
+        "totalUpperDeckSeats":15,
+        "totalrowsUpperDeckSeats": 4,
+        "totalcolumnsUpperDeckSeats": 7,
+        "UpperDeckSeats": [
+
+          {
+          "firstRowUpperDeck": [
+          { "colmn": 5, "row": 0,"type": "S","name": "A1","price": 75,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 0,"type": "N","name": "A2","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 0,"type": "S","name": "A3","price": 51,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 0,"type": "N","name": "A4","price": 131,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 0,"type": "N","name": "A5","price": 121,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "secondRowUpperDeck": [
+          { "colmn": 0, "row": 1,"type": "N","name": "A10","price": 141,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 1,"type": "N","name": "A20","price": 181,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 1,"type": "S","name": "A30","price": 21,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 1,"type": "N","name": "A40","price": 195,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 1,"type": "N","name": "A50","price": 139,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "thirdRowUpperDeck": [
+          { "colmn": 0, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "forthRowUpperDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A11","price": 161,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 3,"type": "N","name": "A22","price": 151,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A33","price": 36,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A66","price": 49,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "A77","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        }
+
+            ]
+          },
+
+         
+      "lowerDeck":{
+        "totalLowerDeckSeats":18,
+        "totalrowsLowerDeckSeats": 4,
+        "totalcolumnsLowerDeckSeats": 7,
+   
+        "LowerDeckSeats": [
+
+          {
+          "firstRowLowerDeck": [
+          { "colmn": "5", "row": 0,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 0,"type": "N","name": "A110","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 0,"type": "S","name": "A220","price": 76,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "0", "row": 0,"type": "N","name": "A330","price": 189,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 0,"type": "N","name": "A440","price": 159,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 0,"type": "S","name": "A550","price": 48,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 0,"type": "N","name": "A660","price": 146,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+
+        {
+        "secondRowLowerDeck": [
+          { "colmn": "0", "row": 1,"type": "N","name": "A100","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 1,"type": "N","name": "A200","price": 106,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 1,"type": "S","name": "A300","price": 45,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          ]
+        },
+
+        {
+        "thirdRowLowerDeck": [
+          { "colmn": "0", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+        {
+        "forthRowLowerDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A111","price": 120,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 3, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A222","price": 55,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 2, "row": 3,"type": "N","name": "A333","price": 155,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 1, "row": 3,"type": "N","name": "A444","price": 130,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A555","price": 50,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "Null","price": 140,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        }
+
+            ]
+          }
+
+    },
+
+
+    "DemoBus5": {
+      "id":5,
+      "totalSeats":33,
+
+      "upperDeck":{
+        "totalUpperDeckSeats":15,
+        "totalrowsUpperDeckSeats": 4,
+        "totalcolumnsUpperDeckSeats": 7,
+        "UpperDeckSeats": [
+
+          {
+          "firstRowUpperDeck": [
+          { "colmn": 5, "row": 0,"type": "S","name": "A1","price": 75,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 0,"type": "N","name": "A2","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 0,"type": "S","name": "A3","price": 51,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 0,"type": "N","name": "A4","price": 131,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 0,"type": "N","name": "A5","price": 121,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 0,"type": " ","name": "null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "secondRowUpperDeck": [
+          { "colmn": 0, "row": 1,"type": "N","name": "A10","price": 141,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 1,"type": "N","name": "A20","price": 181,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 1,"type": "S","name": "A30","price": 21,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 1,"type": "N","name": "A40","price": 195,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 1,"type": "N","name": "A50","price": 139,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "thirdRowUpperDeck": [
+          { "colmn": 0, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 5, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        },
+
+        {
+        "forthRowUpperDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A11","price": 161,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 3, "row": 3,"type": "N","name": "A22","price": 151,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A33","price": 36,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 2, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 1, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A66","price": 49,"isPaymentDone": false, "deckType": "Upper Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "A77","price": 129,"isPaymentDone": false, "deckType": "Upper Deck"}
+          ]
+        }
+
+            ]
+          },
+
+         
+      "lowerDeck":{
+        "totalLowerDeckSeats":18,
+        "totalrowsLowerDeckSeats": 4,
+        "totalcolumnsLowerDeckSeats": 7,
+   
+        "LowerDeckSeats": [
+
+          {
+          "firstRowLowerDeck": [
+          { "colmn": "5", "row": 0,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 0,"type": "N","name": "A110","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 0,"type": "S","name": "A220","price": 76,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "0", "row": 0,"type": "N","name": "A330","price": 189,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 0,"type": "N","name": "A440","price": 159,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 0,"type": "S","name": "A550","price": 48,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 0,"type": "N","name": "A660","price": 146,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+
+        {
+        "secondRowLowerDeck": [
+          { "colmn": "0", "row": 1,"type": "N","name": "A100","price": 136,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 1,"type": "N","name": "A200","price": 106,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 1,"type": "S","name": "A300","price": 45,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          ]
+        },
+
+        {
+        "thirdRowLowerDeck": [
+          { "colmn": "0", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "1", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "2", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "3", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "4", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "5", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 2,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        },
+
+        {
+        "forthRowLowerDeck": [
+          { "colmn": 5, "row": 3,"type": "N","name": "A111","price": 120,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 3, "row": 3,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 4, "row": 3,"type": "S","name": "A222","price": 55,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 2, "row": 3,"type": "N","name": "A333","price": 155,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 1, "row": 3,"type": "N","name": "A444","price": 130,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 0, "row": 3,"type": "S","name": "A555","price": 50,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": 6, "row": 3,"type": "N","name": "Null","price": 140,"isPaymentDone": false, "deckType": "Lower Deck"}
+          ]
+        }
+
+            ]
+          }
+
+    }
+
+
+
+  }
+ 
