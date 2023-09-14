@@ -11,9 +11,8 @@ app.get('/getBuses', function(req, res){
 })
 
 // Create a server to listen at port 8080
-const port = process.env.PORT || 3000;
 
-var server = app.listen(port, "apnibusseatarrapi-production.up.railway.app" ,function(){
+var server = app.listen(8080 ,function(){
     var host = server.address().address
     var port = server.address().port
     console.log("REST API demo app listening at http://%s:%s", host, port)
