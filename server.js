@@ -11,8 +11,8 @@ app.get('/getBuses', function(req, res){
 })
 
 // Create a server to listen at port 8080
-var server = app.listen(8080, function(){
-    var host = 0.0.0.0
+var server = app.listen(8080,"0.0.0.0",function(){
+    var host = server.address().address
     var port = server.address().port
     console.log("REST API demo app listening at http://%s:%s", "0.0.0.0", port)
 })
