@@ -1,3 +1,4 @@
+require('dotenv').config();
 var express = require('express'); // requre the express framework
 var app = express();
 var fs = require('fs'); //require file system object
@@ -12,7 +13,11 @@ app.get('/getBuses', function(req, res){
 
 // Create a server to listen at port 8080
 
-var server = app.listen(8080 ,function(){
+const port = process.env.PORT_ID
+
+
+
+var server = app.listen(port, function(){
     var host = server.address().address
     var port = server.address().port
     console.log("REST API demo app listening at http://%s:%s", host, port)
