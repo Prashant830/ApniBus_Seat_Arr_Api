@@ -89,7 +89,7 @@
           { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
-          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
           ]
         },
 
@@ -214,7 +214,7 @@
           { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
-          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
           ]
         },
 
@@ -338,7 +338,7 @@
           { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
-          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
           ]
         },
 
@@ -462,7 +462,7 @@
           { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
-          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
           ]
         },
 
@@ -586,7 +586,7 @@
           { "colmn": "3", "row": 1,"type": "N","name": "A400","price": 100,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "4", "row": 1,"type": "N","name": "A500","price": 110,"isPaymentDone": false, "deckType": "Lower Deck"},
           { "colmn": "5", "row": 1,"type": "N","name": "A600","price": 125,"isPaymentDone": false, "deckType": "Lower Deck"},
-          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"},
+          { "colmn": "6", "row": 1,"type": " ","name": "Null","price": 0,"isPaymentDone": false, "deckType": "Lower Deck"}
           ]
         },
 

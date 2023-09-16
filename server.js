@@ -1,9 +1,9 @@
-require('dotenv').config();
 var express = require('express'); // requre the express framework
 var app = express();
 var fs = require('fs'); //require file system object
 
-// Endpoint to Get a list of users
+
+//get all buses
 app.get('/getBuses', function(req, res){
     fs.readFile(__dirname + "/" + "bus.json", 'utf8', function(err, data){
         console.log(data);
@@ -11,9 +11,25 @@ app.get('/getBuses', function(req, res){
     });
 })
 
+
+//find all buses
+app.get('/:id', function (req, res) {
+    // First retrieve existing user list
+    fs.readFile( __dirname + "/" + "bus.json", 'utf8', function (err, data) {
+       var buses = JSON.parse( data );
+       var user = buses["DemoBus" + req.params.id] 
+       console.log( user );
+       res.end( JSON.stringify(user));
+    });
+ })
+
+
+ // update bus on the basis of payment
+//  app.put('/payment/:sn', function(req, res){
+//  })
 // Create a server to listen at port 8080
 
-const port = process.env.PORT_ID
+const port = 8080
 
 
 
