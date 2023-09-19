@@ -1,6 +1,8 @@
 var express = require('express'); // requre the express framework
 var app = express();
 var fs = require('fs'); //require file system object
+require("dotenv").config();
+
 
 
 //get all buses
@@ -29,7 +31,7 @@ app.get('/:id', function (req, res) {
 //  })
 // Create a server to listen at port 8080
 
-const port = 8080
+const port = process.env.PORT || 3001;
 
 
 var server = app.listen(port, function(){
