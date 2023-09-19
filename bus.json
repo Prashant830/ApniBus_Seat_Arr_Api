@@ -91,8 +91,8 @@
 
   
     "DemoBus2": {
+      "id":2,
       "totalSeats":28,
-
       "upperDeck":{
         "totalUpperDeckSeats":13,
         "totalrowsUpperDeckSeats": 4,
