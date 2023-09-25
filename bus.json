@@ -3,6 +3,9 @@
       "id":1,
       "totalSeats":28,
 
+  
+  
+      
       "upperDeck":{
         "totalUpperDeckSeats":13,
         "totSeatInColunInUpperColum": 4,
@@ -21,7 +24,7 @@
         },
 
       
-
+        
         {
         "rows": [
           { "row": 0, "rowcolmn": 1,"type": "N","name": "A10","price": 141,"isPaymentDone": false, "deckType": "Upper Deck"},
@@ -34,6 +37,7 @@
           ]
         },
 
+        
         {
         "rows": [
           { "row": 5, "rowcolmn": 3,"type": "N","name": "A11","price": 161,"isPaymentDone": false, "deckType": "Upper Deck"},
@@ -58,6 +62,7 @@
         "totalSeatInLowerRow": 7,
 
 
+        
 
         "LowerDeckSeats": [
 
