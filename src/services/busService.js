@@ -4,10 +4,10 @@ const AppError = require('../utils/AppError');
 async function findBusById(Id) {
     try {
         const bus = await busModel.findBusById(Id);
-        if (!bus) throw new AppError('Bus not found', 404);
+        if (!bus) throw new AppError('Bus not found', 201);
         return bus;
     } catch (error) {
-        throw new AppError('Bus not found', 404);
+        throw new AppError('Bus not found', 201);
     }
 }
 
@@ -15,11 +15,11 @@ async function getAllBuses() {
     try {
         const buses = await busModel.getBuses();
         if (!buses || Object.keys(buses).length === 0) {
-            throw new AppError('Buses not found', 404);
+            throw new AppError('Buses not found', 201);
         }
         return buses;
     } catch (error) {
-        throw new AppError('Buses not found', 404);
+        throw new AppError('Buses not found', 201);
     }
 }
 
