@@ -3,15 +3,17 @@ const app = express();
 const busRoutes = require('./src/routes/busRout');
 const loginRout = require('./src/routes/loginRout');
 const errorHandler = require('./src/middleware/errorHandler');
+const { client } = require('./src/utils/mongoClient'); // Import the flag
 
-app.use(express.json()); 
+app.use(express.json());
 
-app.use('/user', loginRout);  
-app.use('/buses', busRoutes); 
+app.use('/user', loginRout);
+app.use('/buses', busRoutes);
 
-app.use(errorHandler); 
+app.use(errorHandler);
 
 const PORT = require('./src/config/config').PORT;
+
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
