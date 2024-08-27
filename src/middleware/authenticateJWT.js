@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 const AppError = require('../utils/AppError'); // Adjust the path to where AppError is located
+const JWT_SECRET = require('./src/config/config').JWT_SECRET;
 
 async function authenticateJWT(req, res, next) {
     try {
@@ -9,7 +10,7 @@ async function authenticateJWT(req, res, next) {
             return next(new AppError('Access denied. No token provided.', 201));
         }
 
-        const decoded = await jwt.verify(token, process.env.JWT_SECRET);
+        const decoded = await jwt.verify(token, JWT_SECRET);
         req.user = decoded;
         next();
     } catch (error) {
