@@ -6,11 +6,10 @@ async function findBusById(Id) {
         const data = await fs.readFile(__dirname + "/../utils/bus.json", 'utf8'); 
         const buses = JSON.parse(data);
         const bus = buses["DemoBus" + Id]; 
-        if (!bus) throw new AppError('Bus not found', 201);
         return bus;
     } catch (err) {
         console.error('Error in findBusById:', err.message); 
-        throw new AppError('Bus not found', 201); 
+        throw new AppError(err.message, 201); 
     }
 }
 
@@ -21,7 +20,7 @@ async function getBuses() {
         return JSON.parse(data);  
     } catch (err) {
         console.error('Error in getBuses:', err.message); 
-        throw new AppError('Buses not found', 201); 
+        throw new AppError(err.message, 201); 
     }
 }
 
