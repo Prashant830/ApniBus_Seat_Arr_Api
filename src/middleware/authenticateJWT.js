@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const AppError = require('../utils/AppError'); // Adjust the path to where AppError is located
-const JWT_SECRET = require('./src/config/config').JWT_SECRET;
+const JWT_SECRET = require('../config/config').JWT_SECRET;
 
 async function authenticateJWT(req, res, next) {
     try {
