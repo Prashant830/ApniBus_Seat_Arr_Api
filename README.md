@@ -1,4 +1,4 @@
-## ApniBus Seat Arr Api
+## Seat Arrangement Api's
 
 1- clone the project <br>
 2- run npm install <br>
