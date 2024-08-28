@@ -11,4 +11,12 @@ async function getLoginToken(body) {
     }
 }
 
-module.exports = { getLoginToken };
+async function saveUser(body) {
+    try {
+        await loginModel.saveUser(body);
+    } catch (error) {
+        throw new AppError(error.message, 201);
+    }
+}
+
+module.exports = { getLoginToken , saveUser};
